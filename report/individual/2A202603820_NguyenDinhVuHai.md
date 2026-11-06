@@ -15,7 +15,7 @@
 | [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | ☐ |
 
 ## 2. Kết quả chính
-| | |f1|f1_SUB|
+| ---|--- |f1|f1_SUB|
 |1.| BoW + LogReg (tự code)|        0.906|   0.947|
 |2.| BoW + MLP (deep learning)|     0.945|   0.947|
 |3a.| Encoder (MiniLM) + kNN|       0.927|   0.976|
