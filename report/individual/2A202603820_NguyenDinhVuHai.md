@@ -15,15 +15,15 @@
 | [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | ☐ |
 
 ## 2. Kết quả chính
-  f1  f1_SUB
-1. BoW + LogReg (tự code)        0.906   0.947
-2. BoW + MLP (deep learning)     0.945   0.947
-3a. Encoder (MiniLM) + kNN       0.927   0.976
-3b. Encoder (MiniLM) + LogReg    0.942   1.000
-3c. Encoder (MiniLM) + MLP head  0.959   1.000
-4a. LLM nhỏ zero-shot            0.909   0.909
-4b. LLM lớn zero-shot            0.952   0.952
-4c. LLM nhỏ few-shot             0.905   0.905
+| | |f1|f1_SUB|
+|1.| BoW + LogReg (tự code)|        0.906|   0.947|
+|2.| BoW + MLP (deep learning)|     0.945|   0.947|
+|3a.| Encoder (MiniLM) + kNN|       0.927|   0.976|
+|3b.| Encoder (MiniLM) + LogReg|    0.942|   1.000|
+|3c. |Encoder (MiniLM) + MLP head|  0.959|   1.000|
+|4a.| LLM nhỏ zero-shot |           0.909|   0.909|
+|4b.| LLM lớn zero-shot |           0.952|   0.952|
+|4c.| LLM nhỏ few-shot|             0.905|   0.905|
 *Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
 
 ## 3. Dự đoán và thực tế
