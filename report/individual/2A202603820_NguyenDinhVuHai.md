@@ -15,18 +15,17 @@
 | [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | ☐ |
 
 ## 2. Kết quả chính
-| STT | Model | f1 | f1_SUB |
-| --- | --- | --- | --- |
-| 1. | BoW + LogReg (tự code) | 0.906 | 0.947 |
-| 2. | BoW + MLP (deep learning) | 0.945 | 0.947 |
-| 3a. | Encoder (MiniLM) + kNN | 0.927 | 0.976 |
-| 3b. | Encoder (MiniLM) + LogReg | 0.942 | 1.000 |
-| 3c. | Encoder (MiniLM) + MLP head | 0.959 | 1.000 |
-| 4a. | LLM nhỏ zero-shot | 0.909 | 0.909 |
-| 4b. | LLM lớn zero-shot | 0.952 | 0.952 |
-| 4c. | LLM nhỏ few-shot | 0.905 | 0.905 |
 *Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
-
+| STT | Model | F1 test | F1 SUB 40 | p95 ms/tin | USD/1k tin |
+| --- | --- | --- | --- | --- | --- |
+| 1. | BoW + LogReg (tự code) | 0.906 | 0.947 | 0.087 | $0.00 |
+| 2. | BoW + MLP (deep learning) | 0.945 | 0.947 | 0.351 | $0.00 |
+| 3a. | Encoder (MiniLM) + kNN | 0.927 | 0.976 | 56.154 | $0.00 |
+| 3b. | Encoder (MiniLM) + LogReg | 0.942 | 1.000 | 34.224 | $0.00 |
+| 3c. | Encoder (MiniLM) + MLP head | 0.959 | 1.000 | 39.772 | $0.00 |
+| 4a. | LLM nhỏ zero-shot | 0.909 | 0.909 | 3048.792 | $0.00 |
+| 4b. | LLM lớn zero-shot | 0.952 | 0.952 | 2394.123 | $0.00 |
+| 4c. | LLM nhỏ few-shot | 0.905 | 0.905 | 3965.759 | $0.00 |
 ## 3. Dự đoán và thực tế
 
 *Chọn 3 dự đoán `predict(...)` lệch nhiều nhất so với kết quả. Mỗi cái: bạn đoán gì, ra gì, vì sao lệch.*
